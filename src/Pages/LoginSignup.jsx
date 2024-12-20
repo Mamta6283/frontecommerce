@@ -68,7 +68,7 @@ function LoginSignup(props) {
                 },
                 body: JSON.stringify(formData)
             });
-
+              
             responseData = await response.json();
             console.log("Login response:", responseData); // Log the response for debugging
 
